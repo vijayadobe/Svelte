@@ -17,12 +17,16 @@ import ConditionalComp from './components/conditional-comp/conditional-comp.svel
 import NestedConditional from './components/conditional-comp/nested-conditional.svelte';
 import Ifelse from './components/conditional-comp/if-else.svelte';
 import LoopHtml from './components/movie-loop-html/movie-loop-html.svelte';
+import DropdownEx from './components/dropdown-ex/dropdown-ex.svelte';
+import Main from './components/child-to-parent/main.svelte';
 const status = false;
  const user01 = {
         imageUrl :'https://i.pravatar.cc/200?u=a042581f4e290267044',
         name:'Rajesh Singh',		
         role:'Photographer'
   }
+  import Modalcomp from './components/modal-component/main.svelte';
+  import TwoWay from './components/dropdown-ex/two-way.binding.svelte';
   </script>
 
 <!-- <Helloworld />
@@ -38,7 +42,11 @@ const status = false;
 <ConditionalComp {status} />
 <NestedConditional />
 <Ifelse /> -->
-<LoopHtml />
+<!-- <LoopHtml />
+<DropdownEx />
+<Main /> -->
+<Modalcomp />
+<TwoWay />
 <style>
   :root {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
